@@ -1,0 +1,47 @@
+body{
+	font-family: verdana;
+}*{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+	height: 26px;
+	background-color: #000;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid #fff;
+	transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+	}
+	body{
+		background-color: #668284;
+	}
+	.dipin{
+		float: left;
+		padding: 30px;
+		margin: 30px;
+		text-align: center;
+	text-decoration: #fff;
+	hover{
+	background-color: #fff;
+	color: #000;
+	}
+}
+.hello{
+padding: 10px;
+margin-left:20px;
+margin-top: 70px;
+text-align:0;
+}

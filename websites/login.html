@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<body>
+		<header>
+			<div class="main">
+				
+				<ul>
+					<li><a href="Home.html"><i class="fa fa-home"></i>HOME</a></li>
+					<li><a href="blogs.html"><i class="fa fa-rss"></i>Blog</a></li>
+						
+					<li><a href="Cv.html"><i class="fa fa-info"></i>Cv</a></li>
+					<li><a href="Contact.html"><i class="fa fa-address-book-o"></i>Contact</a></li>
+					<li><a href="login.html"><i class="fa fa-sign-in"></i>Login</a></li>
+					<li><a href="research.html"><i class="fa fa-search"></i>Research</a></li>
+				</ul>
+			</div>
+		<div class="loginbox">
+			<img src="pic1.png" class="pic1">
+
+			<form action="#" name="akash" onsubmit="prakash()">
+				<div style="color: aliceblue;">
+				<h2>Login Form</h2>
+				</div>
+				<div class="email">
+					<div class="text">Email *</div>
+					<input type="email" name="dipin" placeholder="Enter email">
+					</div>
+					<div class="msg">
+					<div class="text">password *</div>
+					<input type="password" name="ajay" placeholder="Enter password">
+					
+				</div>
+				<div class="btn">
+					<button type="submit">Login</button>
+				</div>	
+			</form>
+		</div>
+	</div>
+	<script type="text/javascript">
+		function prakash(){
+			var email=document.forms["akash"]["dipin"].value;
+			var password=document.forms["akash"]["ajay"].value;
+			if(email==""|| password==""){
+				alert("fill up the data");
+			}
+		}
+	</script>
+	</body>
+	</html>
